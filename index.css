@@ -154,20 +154,20 @@ header.tls{
     gap: 50px;
     padding: 50px 25px;
     flex-wrap: wrap;
+    margin: 3vw;
 }
 
 .card-tls{
     background-color: #dabdfa;
     border-radius: 15px;
-    height: 550px;
-    width: 220px;
+    height: 500px;
+    width: 250px;
     padding: 15px;
     text-align: center;
     font-family: 'open sans';
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
     border: 2px solid #4c1d95;
     transition: all 0.2s ease;
 }
@@ -185,115 +185,10 @@ header.tls{
 
 .card-tls a{
     margin-bottom: 15px;
-    color: #3533cd !Important;
-    text-decoration: none !Important;
+    color: #3533cd;
+    text-decoration: none;
 }
 
-
-         /*Mapa Mental*/
-
-body.tls2{
-    background: rgb(180, 136, 223);
-    display: block;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    margin:0;
-    font-family:'Poppins', sans-serif;
-  }
-
-  .container-tls2{
-    position:relative;
-    width:750px;
-    height:600px;
-  }
-
-  .centro{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-    width:200px;
-    height:200px;
-    background: #cecad6;
-    border-radius:50%;
-    border:18px solid transparent;
-    background-clip: padding-box;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    font-family:'Dancing Script', cursive;
-    font-size:38px;
-    line-height:0.9;
-    z-index:2;
-    box-shadow: 1.5px 4px 8px #222;
-  }
-
-  .centro::before{
-    content:'';
-    position:absolute;
-    inset:-18px;
-    border-radius:50%;
-    background: conic-gradient(
-     #9871e0 0% 25%,
-      #b39ddb 25% 50%,
-      #9871e0 50% 75%,
-      #b39ddb 75% 100%
-    );
-    z-index:-1;
-    border: 1px solid black;
-  }
-
-  .box{
-    position:absolute;
-    width:210px;
-    background:#dabdfa;
-    border: 2px solid #4c1d95;
-    box-shadow: 1.5px 4px 8px #222;
-    border-radius: 15px;
-  }
-
-  .box .titulo{
-    padding:6px 10px;
-    font-weight:600;
-    font-size:20px;
-    text-align:center;
-    border-radius: 15px;
-  }
-
-  .box .conteudo{
-    min-height:80px;
-    padding:10px;
-    font-size:20px;
-  }
-
-
-  .box1 .titulo{ 
-     background: #dabdfa; 
-  }
-  .box2 .titulo{ 
-   background: #dabdfa;
-  }
-  .box3 .titulo{ 
-     background: #dabdfa;
-  } 
-  .box4 .titulo{ 
-     background: #dabdfa;
-  }
-
-  .box1{
-     top:0; left:50%; transform:translateX(-50%); 
-  }
-  .box2{ 
-     top:50%; right:0; transform:translateY(-50%);
-  }
-  .box3{ 
-      bottom:0; left:50%; transform:translateX(-50%); 
-  }
-  .box4{ 
-      top:50%; left:0; transform:translateY(-50%);
-  }
 
 @media screen and (max-width: 768px){
     .container-index{
@@ -313,5 +208,7 @@ body.tls2{
     .container-tls{
         display: flex;
         overflow: auto;
+        gap: 20px;
     }
+
 }
