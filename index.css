@@ -130,7 +130,8 @@ body.tls{
     background: rgb(180, 136, 223);
     padding: 0px;
     margin: 0px;
-    display: flexbox;
+    display: block;
+    overflow: auto;
 }
 
 header.tls{
@@ -193,7 +194,7 @@ header.tls{
 
 body.tls2{
     background: rgb(180, 136, 223);
-    display:flex;
+    display: block;
     justify-content:center;
     align-items:center;
     min-height:100vh;
@@ -310,7 +311,7 @@ body.tls2{
     }
 
     .container-tls{
-        display: flexbox;
+        display: flex;
         overflow: auto;
     }
 }
