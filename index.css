@@ -3,23 +3,23 @@
 *{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body.index{
     background-color: rgb(180, 136, 223);
     display: block;
-    overflow: hidden;
 }
 
 header{
     background-color: #4c1d95 ;
-    padding: 0px 5px;
+    width: 100%;
     color: white;
     font-family: 'open sans';
-    min-width: 250px;
 }
 
 .meumundo{
+    width: 100%;
     text-align: center;
     background-color: white;
     font-family: 'open sans';
@@ -81,9 +81,8 @@ header{
 .container-index{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 50px 50px;
-    min-width: 250px;
+    gap: 30px;
+    padding: 50px 20px;
     flex-wrap: wrap;
 }
 
@@ -91,10 +90,11 @@ header{
     background-color: rgb(233, 213, 255);
     border-radius: 5px;
     padding: 15px;
-    width: 100px;
+    width: 100%; 
+    max-width: 250px;
     text-align: center;
     font-family: 'Cinzel', serif;
-    cursor: pointer;   
+    cursor: pointer;
     border: 2px solid #4c1d95;
     box-shadow: 1.5px 4px 8px #222;
     transition: all 0.2s ease;
@@ -113,14 +113,12 @@ header{
 
 footer{
     text-align: center;
-    background-color: #4c1d95 ;
+    background-color: #4c1d95;
     padding: 15px 30px;
     font-size: 18px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     color: white;
+    /* remove position: fixed, bottom, left */
 }
 
 
@@ -297,7 +295,7 @@ body.tls2{
       top:50%; left:0; transform:translateY(-50%);
   }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 768px){
     .container-index{
         display: flex;
         gap: 20px;
@@ -312,7 +310,8 @@ body.tls2{
         position: relative;
     }
 
-    .container-tl{
+    .container-tls{
         display: block;
+        overflow: auto;
     }
 }
