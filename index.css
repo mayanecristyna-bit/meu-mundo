@@ -119,6 +119,7 @@ footer{
     width: 100%;
     color: white;
     buttom: 0;
+    position: fixed;
 }
 
 
