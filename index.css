@@ -118,7 +118,7 @@ footer{
     font-size: 18px;
     width: 100%;
     color: white;
-    /* remove position: fixed, bottom, left */
+    position: fixed;
 }
 
 
