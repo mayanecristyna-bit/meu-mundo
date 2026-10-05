@@ -28,3 +28,25 @@ setInterval(() => {
 
  <div class="slide"><a href="https://jinxpowder.netlify.app/" target="_blank"><img src="imgsite/jinx.png" alt=""></a></div> 
     <div class="slide"><a href="https://rumoufv.netlify.app/" target="_blank"><img src="imgsite/ufv.png" alt""></a></div>
+
+
+   .dots{
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+}
+.dot{
+  width: 12px;
+  height: 5px;
+  background: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dot.active{
+  background: powderblue;
+  width: 22px;
+  opacity: 1;
+}
