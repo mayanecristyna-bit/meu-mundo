@@ -1,1 +1,196 @@
+ /*Index*/
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body.index{
+    background-color: rgb(180, 136, 223);
+    display: block;
+}
+
+header{
+    background-color: #4c1d95 ;
+    width: 100%;
+    color: white;
+    font-family: 'open sans';
+}
+
+.meumundo{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-family: 'open sans';
+}
+
+.meumundo h2{
+    color: #361b6b;
+}
+
+.banner-carrossel{
+  position: relative;
+  width: 90vw;
+  height: 55vh;
+  margin: auto;
+  background: #222;
+  border-radius: 15px;
+  border: 2px solid #000;
+  box-shadow: 0 4px 8px #222;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.slides{
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.slide{
+  min-width: 100%;
+  height: 100%;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.container-index{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(233, 213, 255);
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%; 
+    max-width: 250px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    border: 2px solid #4c1d95;
+    box-shadow: 1.5px 4px 8px #222;
+    transition: all 0.2s ease;
+}
+
+.card:hover{
+  transform: translateY(-3px);
+}
+
+.card a{
+    color: #280955;
+    text-decoration: none;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #4c1d95;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+
+             /*TEATROS, LIVROS & SÉRIES*/
+
+              /*3 cards*/
+
+body.tls{
+    background: rgb(180, 136, 223);
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    overflow: auto;
+}
+
+header.tls{
+    background-color: #4c1d95 ;
+    padding: 5px 5px;
+    color: white;
+    font-family: 'open sans';
+    min-width: 250px;
+}
+
+ header.tls h3{
+  font-size: 18px;
+  font-family: 'Cinzel', serif;
+}
+
+.container-tls{
+    background-color: rgb(180, 136, 223);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 25px;
+    flex-wrap: wrap;
+    margin: 3vw;
+}
+
+.card-tls{
+    background-color: #dabdfa;
+    border-radius: 15px;
+    height: 500px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'open sans';
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4c1d95;
+    transition: all 0.2s ease;
+}
+
+.card-tls:hover{
+  transform: translateY(-3px);
+}
+
+.card-tls img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card-tls a{
+    margin-bottom: 15px;
+    color: #3533cd;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .container-index{
+        display: flex;
+        gap: 20px;
+        padding: 30px 15px;
+    }
+
+    .card{
+        width: 180px;
+    }
+ 
+    .slide1{
+        position: relative;
+    }
+
+
+
+    .container-tls{
+        display: flex;
+        overflow: auto;
+        gap: 20px;
+    }
+
+}
