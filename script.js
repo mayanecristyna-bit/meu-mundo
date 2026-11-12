@@ -28,6 +28,12 @@ setInterval(() => {
 
  <div class="slide"><a href="https://jinxpowder.netlify.app/" target="_blank"><img src="imgsite/jinx.png" alt=""></a></div> 
     <div class="slide"><a href="https://rumoufv.netlify.app/" target="_blank"><img src="imgsite/ufv.png" alt""></a></div>
+<div class="slide"><a href="https://jinxpowder.netlify.app/" target="_blank"><img src="imgsite/jinx.png" alt=""></a></div> 
+     <div class="slide"><a href="https://rumoufv.netlify.app/" target="_blank"><img src="imgsite/ufv.png" alt""></a></div>
+
+  </div>
+  <div class="dots"></div>
+</div>
 
 
    .dots{
