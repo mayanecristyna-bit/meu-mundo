@@ -29,6 +29,30 @@ header{
     color: #361b6b;
 }
 
+.subtitulo {
+  margin: 16px auto 0;
+  color: #766783;
+  font-size: clamp(15px, 2vw, 20px);
+}
+
+.coracao {
+  margin: 22px auto 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  color: #8752aa;
+  font-size: 23px;
+}
+
+.coracao span {
+  width: 70px;
+  height: 1px;
+  background: #bd91d8;
+}
+
 .banner-carrossel{
   position: relative;
   width: 90vw;
@@ -76,6 +100,27 @@ header{
   width: 22px;
   opacity: 1;
 }
+
+.textinho {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.textinho h2 {
+  margin: 0;
+  color: #32104f;
+
+  font-family: "Cinzel", serif;
+  font-size: clamp(26px, 4vw, 38px);
+  font-weight: 600;
+}
+
+.textinho > p:last-child {
+  margin: 10px 0 0;
+  color: #8751ad;
+  font-size: 14px;
+}
+
 .container-index{
     display: flex;
     justify-content: center;
