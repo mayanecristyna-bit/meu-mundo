@@ -7,7 +7,7 @@
 }
 
 body.index{
-    background-color: rgb(180, 136, 223);
+    background-color: rgba(209, 174, 235, .45);
     display: block;
 }
 
@@ -21,11 +21,10 @@ header{
 .meumundo{
     width: 100%;
     text-align: center;
-    background-color: white;
     font-family: 'open sans';
 }
 
-.meumundo h2{
+.meumundo h1{
     color: #361b6b;
 }
 
@@ -130,7 +129,7 @@ header{
 }
 
 .card{
-    background-color: rgb(233, 213, 255);
+    background-color: white;
     border-radius: 5px;
     padding: 15px;
     width: 100%; 
@@ -138,13 +137,13 @@ header{
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;
-    border: 2px solid #4c1d95;
     box-shadow: 1.5px 4px 8px #222;
     transition: all 0.2s ease;
 }
 
 .card:hover{
   transform: translateY(-3px);
+  border: 2px solid #4c1d95;
 }
 
 .card a{
