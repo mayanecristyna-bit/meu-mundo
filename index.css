@@ -144,7 +144,7 @@ footer{
               /*3 cards*/
 
 body.tls{
-    background: rgb(180, 136, 223);
+    background-color: rgba(209, 174, 235, .45);
     padding: 0px;
     margin: 0px;
     display: block;
@@ -175,7 +175,7 @@ header.tls{
 }
 
 .card-tls{
-    background-color: #dabdfa;
+    background-color: white;
     border-radius: 15px;
     height: 500px;
     width: 250px;
@@ -185,12 +185,13 @@ header.tls{
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    border: 2px solid #4c1d95;
+   box-shadow: 1.5px 4px 8px #222;
     transition: all 0.2s ease;
 }
 
 .card-tls:hover{
   transform: translateY(-3px);
+  border: 2px solid #4c1d95;
 }
 
 .card-tls img{
