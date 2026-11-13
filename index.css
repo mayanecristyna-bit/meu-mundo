@@ -16,7 +16,7 @@ header{
     width: 100%;
     color: white;
     font-family: 'open sans';
- padding: 30px;
+ padding: 5px;
 }
 
 .meumundo{
@@ -24,6 +24,7 @@ header{
     text-align: center;
     font-family: 'open sans';
     color: #361b6b;
+    background-color: #e7c9ed;
 }
 
 .subtitulo {
