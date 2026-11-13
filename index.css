@@ -165,7 +165,7 @@ header.tls{
 }
 
 .container-tls{
-    background-color: rgb(180, 136, 223);
+    background-color: rgba(209, 174, 235, .45);
     display: flex;
     justify-content: center;
     align-items: center;
