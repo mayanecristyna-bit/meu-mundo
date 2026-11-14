@@ -147,6 +147,8 @@ body.tls{
     background-color: rgba(209, 174, 235, .45);
     padding: 0px;
     margin: 0px;
+    justify-content: center;
+    align-items: center;
     display: block;
     overflow: auto;
 }
