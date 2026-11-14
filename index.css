@@ -210,6 +210,18 @@ header.tls{
     text-decoration: none;
 }
 
+.voltar{
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  width: 20%;
+}
+
+.botao{
+  color: #000;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 768px){
     .container-index{
